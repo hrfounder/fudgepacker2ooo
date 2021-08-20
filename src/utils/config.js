@@ -12,9 +12,8 @@ if (IS_TESTNET) {
 	var_WAX_BASE_ENDPOINT = 'https://api.waxtest.alohaeos.com';
 }
 
+export const TESTNET = IS_TESTNET;
 export const WAX_CHAIN_ID = var_WAX_CHAIN_ID;
 export const ATOMIC_BASE_ENDPOINT = var_ATOMIC_BASE_ENDPOINT;
 export const WAX_BASE_ENDPOINT = var_WAX_BASE_ENDPOINT;
 export const WAX_BASE_ENDPOINT_HOST = var_WAX_BASE_ENDPOINT_HOST;
-
-export const TESTNET = IS_TESTNET;
