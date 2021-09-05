@@ -19,7 +19,7 @@ Once you've cloned the project and installed dependencies with `yarn` (or `pnpm 
 ```bash
 
 #make sure you have yarn
-yar  dev
+yarn  dev
 
 # or start the server and open the app in a new browser tab
 yarn dev -- --open
